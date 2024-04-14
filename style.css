@@ -33,8 +33,8 @@ img {
     --link-hover: rgb(240, 11, 81);
 
         /* others */
-    --padding-tb: 1.5rem 0;
-    --padding-lr: 0 4rem;
+    --padding-tb: 2rem 0;
+    --padding-lr: 0 6rem;
 }
 
 /* || GENERAL STYLES */
@@ -165,3 +165,76 @@ body {
 .rating-number {
     font-weight: 900;
 }
+
+    /* testimonials */
+#testimonials {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 6rem 12rem;
+}
+
+.testimonials-container {
+    display: flex;
+    gap: 16px;
+}
+
+#testimonials img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.testimonial-provider {
+    font-size: 14px;
+    font-style: italic;
+}
+
+    /* sign-up */
+#sign-up {
+    background-color: var(--link-hover);
+    color: rgb(255, 255, 255);
+    margin: 4rem 6rem;
+    padding: 2rem 4rem;
+    line-height: 1.2;
+    border-radius: 8px;
+    font-weight: 200;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sign-up > div:first-of-type {
+    flex-basis: 75%;
+}
+
+#sign-up p:first-of-type {
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+#sign-up button {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: var(--link-hover);
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 0.25rem 0.5rem;
+    font-weight: 400;
+}
+
+#sign-up button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+    /* footer */
+.footer {
+    height: 4rem;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
