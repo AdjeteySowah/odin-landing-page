@@ -13,3 +13,5 @@ I would like to credit the following websites for providing images used on our s
 - [Logo.com](https://logo.com/)
 - Emmanuel Aning
 - Gifty Adjetey
+
+[Live website](https://adjeteysowah.github.io/odin-landing-page/)
